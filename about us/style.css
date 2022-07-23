@@ -2,44 +2,49 @@ body {
 	background-image: url("Images/back.jpg");
 }
 
+.about{
+	background-color: whitesmoke;
+	overflow: hidden;
+	text-align: center;
+	padding-left:80px;
+}
+
 .topnav{
 	background-color: whitesmoke;
 	overflow: hidden;
-	margin: 0 auto;
-	size: 20px 20px;
+	text-align: center;
 }
 .topnav a{
-	float: right;
-	color: skyblue;
-	padding: 14px 16px;
+	float: left;
+	color: whitesmoke
+	text-align: center;
+	padding-left: 450px;
 	text-decoration: none;
 	font-size: 17px;
 }
 .topnav	a:hover {
-	background-color: skyblue;
+	background-color: lightskyblue;
 	color: whitesmoke;
 }
 .topnav a:active{
 	background-color: whitesmoke;
-	color: dimgray;
+	color: lightskyblue;
 }
+
 .uvod {
-	margin: 0 auto;
 	text-align: center;
 	background-color: skyblue;		
 	opacity: 0.9;
 	border: solid 2px black;
 }
 .font {
-    font-size: 40px;
-    font-family: inherit;
-    padding-left: 15px;
-    padding-top: 3px;
-    text-shadow: 2px 3px gray;
-    letter-spacing: 3px;
-
+	font-size: 40px;
+	font-family: inherit;
+	padding-left: 15px;
+	padding-top: 3px;
+	text-shadow: 2px 3px gray;
+	letter-spacing: 3px;
 }
-
 .ikona {
 	float: ;
 }
